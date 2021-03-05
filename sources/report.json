@@ -1,0 +1,127 @@
+{
+  "warnings": [
+    {
+      "code": "V6009",
+      "cwe": 628,
+      "level": 1,
+      "positions": [
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\EntryPoint.java",
+          "line": 504,
+          "endLine": 504,
+          "column": 13,
+          "endColumn": 58,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1775865128,
+            "nextLine": -963688102,
+            "columns": 61
+          }
+        }
+      ],
+      "message": "The \u0027isAnnotationPresent\u0027 function receives null value while non-null value is expected. Inspect argument: 1.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6079",
+      "cwe": 129,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\migration\\V6079Artifacts.java",
+          "line": 130,
+          "endLine": 130,
+          "column": 46,
+          "endColumn": 55,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1135054637,
+            "nextLine": 123,
+            "columns": 67
+          }
+        },
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\migration\\V6079Artifacts.java",
+          "line": 130,
+          "endLine": 130,
+          "column": 17,
+          "endColumn": 21,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1135054637,
+            "nextLine": 123,
+            "columns": 67
+          }
+        }
+      ],
+      "message": "Value of the \u0027sz\u0027 variable is checked after use. Potential logical error is present.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6021",
+      "cwe": 563,
+      "sastId": "CERT-MSC56-J",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\EntryPoint.java",
+          "line": 83,
+          "endLine": 83,
+          "column": 15,
+          "endColumn": 110,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 499309918,
+            "nextLine": 0,
+            "columns": 110
+          }
+        }
+      ],
+      "message": "Variable \u0027expectedPermission\u0027 is not used.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V6087",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\v6087\\AbstractExt.java",
+          "line": 213,
+          "endLine": 223,
+          "column": 19,
+          "endColumn": 13,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 547867183,
+            "nextLine": 123,
+            "columns": 77
+          }
+        },
+        {
+          "file": "D:\\_JavaProjects\\TestProject\\src\\main\\java\\v6087\\AbstractExt.java",
+          "line": 207,
+          "endLine": 211,
+          "column": 19,
+          "endColumn": 13,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 293685,
+            "nextLine": 7647389,
+            "columns": 27
+          }
+        }
+      ],
+      "message": "InvalidClassException may occur during deserialization. Non-serializable ancestor \u00271Parent0\u0027 is missing an accessible no-arg constructor.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
